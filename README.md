@@ -1,7 +1,5 @@
-QSWebsiteGears
+Orchestra
 ==============
-#### [2012-08] This is Andy's website design.
-It runs on a Node server. It's designed to run on both cloud9 and heroku.
 `package.json` - This is used to install dependencies (express mainly). 
 `web.js` - This defines the routings.
 

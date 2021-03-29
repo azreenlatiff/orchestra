@@ -40,7 +40,7 @@ body {
 }
 
 .hero-bg {
-  background-image: url("/images/OMS/sha-hero-bg.png");
+  background-image: url("/images/sha-hero-bg.png");
   background-size:     cover;                      
   background-repeat:   no-repeat;
   background-position: center center;
