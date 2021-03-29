@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Egads! You've found nowhere!</title>
+	<meta name='description' content='Fully online school management system. Sign up in 60 seconds. Instant access to attendance, homework, gradebook, report cards, scheduler, parent portal and more!' />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name='robots' content='noindex, follow'>
+  
+  <!-- Google Optimize: Minimize page flickering -->
+  <style>.async-hide { opacity: 0 !important} </style>
+  <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+  h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+  (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+  })(window,document.documentElement,'async-hide','dataLayer',4000,
+  {'GTM-5LP3XLT':true});</script>
+  <!-- End Google Optimize: Minimize page flickering -->
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5LP3XLT');</script>
+  <!-- End Google Tag Manager -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="/css/main_exp.css" />
+  <link rel="stylesheet" href="/css/adapter.css" />
+  <link rel="stylesheet" href="/css/fonts/fontawesome/font-awesome.min.css" />
+
+  <script src="/scripts/gears.js"></script>
+    
+  <!-- Nav Menu Responsive Works -->
+  <script>
+    $(document).ready(function(){
+      $('.navbar-toggle').click(function(){
+    		$('.navbar-items').toggleClass('navbar-toggle_show');
+    		$('#burgerbars').toggleClass('open');
+    	});
+    });
+  </script>
+  <!-- End Nav Menu Responsive Works -->
+</head>
+<body>
+<!-- Navigation Menu -->
+{{=it.navbar}}
+
+<!-- Begin Hero -->
+<div class="error404-hero-container row">
+  <div class="error404-hero-container-left green-links">
+    <h1>OH NO. <br/>The chickens.</h1>
+    <p>They must have eaten the page you're looking for: {{=it.pageName}}</p>
+    <p>That's a bummer.</p>
+    <p>But don't worry. While the chickens rampage through the kitchen, feel free to browse the rest of the site. There's so many pages to enjoy. You could start a <a href="/quickschools/pricing">free trial</a> or <a href="https://blog.quickschools.com/">read our blog</a> or hear what our customers have to say about <a href="/clients/success-stories">how awesome QuickSchools.com is</a>.</p>
+  </div>
+  <div class="error404-hero-container-right"><img alt="" src="https://d1512cxhwqig2.cloudfront.net/images/404.jpg"></div>
+  <!--<div id="hero-right" class="hero-404"></div>-->
+</div>
+
+<!-- Begin Text -->
+<div class="container-wrap row container-text green-links">
+  <div class="">
+      <p>If you're having trouble with the website or your school's QuickSchools.com site, you can take a look at our <a href="/clients/support/faqs">Frequently Asked Questions</a> and if that doesn't answer your question, we offer <a href="javascript:$zopim.livechat.window.show()">live chat support</a>. If live support can't help you, feel free to drop us a line through our <a href="/company/contact-us">contact page</a> and we'll make sure to get back to you super-duper quick. You might think that's sarcasm, but you'd be wrong. Our support team had to use a made up suffix because 'super' doesn't do our customer service justice. We started them on a diet of genetically engineered scrambled eggs in the morning, which was fantastic. But now we have to take care of super smart chickens that like to peck at web pages until they explode. Which is why you're here now. Full circle.</p>
+      <p>Anyways, you should probably skidaddle. There's plenty of other pages that are <a href="/quickschools/features">more interesting</a> than this page.You don't wanna be the person that spends all their time on the <strong>Error 404</strong> page, do you?</p>
+  </div>
+</div>
+
+
+<div>
+  <!-- Mega Footer -->
+  {{=it.megafooter}}
+  
+  <!-- Footer -->
+  {{=it.footer}}
+</div>
+
+</body>
+</html>

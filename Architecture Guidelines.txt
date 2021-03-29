@@ -1,0 +1,21 @@
+QuickSchools Website Architecture Guidelines
+============================================
+
+Pages have NO extension
+-----------------------
+Yes, the files are internally stored with an html extension (index.html, privacy.html) etc.
+But the user should access them with nice URLs (like www.quickschools.com/privacy).
+
+Implicit *.html file OR implicit index.html file
+------------------------------------------------
+If you access a path like "/company", this will load EITHER of these two pages, in order of priority:
+  - /company.html
+  - /company/index.html
+
+There is NO index.html
+----------------------
+Going to http://www.quickschools.com/index.html will result in 404.
+
+Subdirectories will never return a page
+---------------------------------------
+Example: /company/ is not valid, but /company is.
